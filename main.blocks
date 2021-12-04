@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="5F~`ZPEVtjT/umKCChGc">mano</variable><variable id="[cyIZ78t2EqJ.LI8K$Q=">sprite</variable></variables><block type="device_button_event" id="LI*Td*9+GzWC1%OYTRv?" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="zxc)m5b;3aT!JYr|O:*P"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="basic_show_icon" id="D^8@#z8lc{VW/npL32HU"><field name="i">IconNames.Chessboard</field><next><block type="device_print_message" id=")Gykk31X^,ug4e1vR*aG"><value name="text"><shadow type="text" id="IjQAirv~U0monGB2Vx0f"><field name="TEXT">adria</field></shadow></value><next><block type="playMelody" id="SJi_1%$wFsZTc+Ch:Mih"><value name="melody"><shadow type="melody_editor" id="9Hn*e#wY`vrMCtx3oqt|"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="WT^g!~{c|Dpe`Tr}{.0i"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="4Jtt-oMZt{bzG,HF$+FN"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="jwOG1.$##)1l].3/1;?Y" x="271" y="-3"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="2ZmCgy8_Bs);|k3U@~hO"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="basic_show_icon" id="H=o|bC,vc=UL@z,pq}4m"><field name="i">IconNames.Ghost</field><next><block type="device_print_message" id="C{q$-)9?[+X0j@vnvG%2"><value name="text"><shadow type="text" id="UZ5!pd?SYG93lAjqUuC2"><field name="TEXT">papa</field></shadow></value><next><block type="playMelody" id="4}|ol{=_!KjB!(5y+ws!"><value name="melody"><shadow type="melody_editor" id="QXWgY89`l,Xs5#YrMmhq"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="VIqQzM+4fLQQ#rV2To3,"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="g$3taN@Pw|v]`xVlR5G4"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
